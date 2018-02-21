@@ -1,4 +1,7 @@
 #! /bin/bash
+
+# Very important script to print out fortune piped to a random cowsay cow.
+
 if [ $OSTYPE == "darwin16" ]
 then
   cow_path=/usr/local/Cellar/cowsay/3.04/share/cows/*.cow

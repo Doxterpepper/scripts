@@ -1,6 +1,6 @@
 install_path=/usr/local/bin
 
-bash_files=(mux.sh rand_cowsay.sh)
+bash_files=(mux.sh rand_cowsay.sh git-sub-status.sh cbranch.sh)
 
 # Install scripts that use bash
 function bash_installs {
